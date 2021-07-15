@@ -1,0 +1,20 @@
+[[HIP]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "220dadff783525f6dd4ad62223dfae93271f5991"
+libc = "glibc"
+os = "linux"
+
+    [[HIP.download]]
+    sha256 = "a4047e6f7c9187fb25738270edaf4e3b55e3073b99a4db8bf4bf533d11f7dd3f"
+    url = "https://github.com/JuliaBinaryWrappers/HIP_jll.jl/releases/download/HIP-v4.0.0+0/HIP.v4.0.0.x86_64-linux-gnu-cxx11.tar.gz"
+[[HIP]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "bab37d0ed68aea257287a2d9de5a3cdb555c022f"
+libc = "musl"
+os = "linux"
+
+    [[HIP.download]]
+    sha256 = "69ae47bd60e51f11403fadaf2ee7624e6ecbe01bf109060140c49adc09c5caeb"
+    url = "https://github.com/JuliaBinaryWrappers/HIP_jll.jl/releases/download/HIP-v4.0.0+0/HIP.v4.0.0.x86_64-linux-musl-cxx11.tar.gz"
