@@ -6,19 +6,19 @@ using ROCmDeviceLibs_jll
 using ROCmCompilerSupport_jll
 using ROCmOpenCLRuntime_jll
 JLLWrappers.@generate_wrapper_header("HIP")
-JLLWrappers.@declare_executable_product(hipcc)
 JLLWrappers.@declare_library_product(libamdhip64, "libamdhip64.so.4")
+JLLWrappers.@declare_executable_product(hipcc)
 function __init__()
     JLLWrappers.@generate_init_header(hsa_rocr_jll, ROCmDeviceLibs_jll, ROCmCompilerSupport_jll, ROCmOpenCLRuntime_jll)
-    JLLWrappers.@init_executable_product(
-        hipcc,
-        "hip/bin/hipcc",
-    )
-
     JLLWrappers.@init_library_product(
         libamdhip64,
         "hip/lib/libamdhip64.so",
         RTLD_LAZY | RTLD_DEEPBIND,
+    )
+
+    JLLWrappers.@init_executable_product(
+        hipcc,
+        "hip/bin/hipcc",
     )
 
     JLLWrappers.@generate_init_footer()
