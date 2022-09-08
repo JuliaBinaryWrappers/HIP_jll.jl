@@ -1,6 +1,6 @@
 name = "HIP_jll"
 uuid = "2696aab5-0948-5276-aa9a-2a86a37016b8"
-version = "4.2.0+2"
+version = "4.5.2+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
@@ -16,4 +16,4 @@ rocminfo_jll = "5a766526-3cf8-5128-8c31-4f7b7ad60f0e"
 
 [compat]
 JLLWrappers = "1.2.0"
-julia = "1.7"
+julia = "1.8"
