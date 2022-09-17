@@ -1,6 +1,6 @@
 name = "HIP_jll"
 uuid = "2696aab5-0948-5276-aa9a-2a86a37016b8"
-version = "4.5.2+1"
+version = "4.5.2+2"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
