@@ -8,7 +8,7 @@ using ROCmDeviceLibs_jll
 using ROCmCompilerSupport_jll
 using ROCmOpenCLRuntime_jll
 JLLWrappers.@generate_wrapper_header("HIP")
-JLLWrappers.@declare_library_product(libamdhip64, "libamdhip64.so.4")
+JLLWrappers.@declare_library_product(libamdhip64, "libamdhip64.so.5")
 JLLWrappers.@declare_executable_product(hipcc)
 function __init__()
     JLLWrappers.@generate_init_header(hsakmt_roct_jll, hsa_rocr_jll, rocminfo_jll, ROCmDeviceLibs_jll, ROCmCompilerSupport_jll, ROCmOpenCLRuntime_jll)
