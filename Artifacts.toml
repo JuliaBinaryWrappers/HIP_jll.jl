@@ -6,8 +6,8 @@ libc = "glibc"
 os = "linux"
 
     [[HIP.download]]
-    sha256 = "8f18103ceee815957e50b13b82ef763b68e8efc4334345119034f8c6232deb66"
-    url = "https://github.com/JuliaBinaryWrappers/HIP_jll.jl/releases/download/HIP-v5.2.3+1/HIP.v5.2.3.x86_64-linux-gnu-cxx11.tar.gz"
+    sha256 = "dca6f6b358d61ef00c5efb963e6f745fc964e8fa07addf4bd91f2120d451594d"
+    url = "https://github.com/JuliaBinaryWrappers/HIP_jll.jl/releases/download/HIP-v5.2.3+2/HIP.v5.2.3.x86_64-linux-gnu-cxx11.tar.gz"
 [[HIP]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
@@ -16,5 +16,5 @@ libc = "musl"
 os = "linux"
 
     [[HIP.download]]
-    sha256 = "3974bc950fc7c1eda9952331f6de48dcd4f885a279dcd9eb1054e5a4c5714c32"
-    url = "https://github.com/JuliaBinaryWrappers/HIP_jll.jl/releases/download/HIP-v5.2.3+1/HIP.v5.2.3.x86_64-linux-musl-cxx11.tar.gz"
+    sha256 = "87c595fb9a792e30b0e21c1b4313b58a4917f40fef8a5603c1e59070009946c1"
+    url = "https://github.com/JuliaBinaryWrappers/HIP_jll.jl/releases/download/HIP-v5.2.3+2/HIP.v5.2.3.x86_64-linux-musl-cxx11.tar.gz"
