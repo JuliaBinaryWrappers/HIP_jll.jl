@@ -1,20 +1,20 @@
 [[HIP]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "ed614f8f3ce8561867598b87a86417a8d4f9b053"
+git-tree-sha1 = "3e4a5c18581a48180ab1525d3d490a2e2552616f"
 libc = "glibc"
 os = "linux"
 
     [[HIP.download]]
-    sha256 = "5e68e5aabf3a9e899a9f4161906934648967b5b55b853cd4e3e41b73fb7e7259"
-    url = "https://github.com/JuliaBinaryWrappers/HIP_jll.jl/releases/download/HIP-v5.2.3+3/HIP.v5.2.3.x86_64-linux-gnu-cxx11.tar.gz"
+    sha256 = "dffb8c12735c6a516e1467117ee4efb1b3c97fe07a303a5c4d5086031fefe499"
+    url = "https://github.com/JuliaBinaryWrappers/HIP_jll.jl/releases/download/HIP-v5.4.4+0/HIP.v5.4.4.x86_64-linux-gnu-cxx11.tar.gz"
 [[HIP]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "cedbba0b5397ef843d6fdec15373e76fee316a5c"
+git-tree-sha1 = "f9d02cec0574e2215a1327b51730cdf204a03377"
 libc = "musl"
 os = "linux"
 
     [[HIP.download]]
-    sha256 = "caccbc2b0834b3b7cc5b5215102bc8d8ab19f58d3ee5add7a3be6258c71bb3b0"
-    url = "https://github.com/JuliaBinaryWrappers/HIP_jll.jl/releases/download/HIP-v5.2.3+3/HIP.v5.2.3.x86_64-linux-musl-cxx11.tar.gz"
+    sha256 = "8a3e12bb82220dc72a7ee399b03abaad78ba5b749174a69fd5e1a1789fe87b78"
+    url = "https://github.com/JuliaBinaryWrappers/HIP_jll.jl/releases/download/HIP-v5.4.4+0/HIP.v5.4.4.x86_64-linux-musl-cxx11.tar.gz"
